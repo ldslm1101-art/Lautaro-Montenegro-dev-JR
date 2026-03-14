@@ -9,6 +9,8 @@ import { Toaster } from '@/components/ui/toaster';
 function App() {
   return (
     <Router>
+      <Router basename="/lautaro-montenegro-dev-jr">
+      </Router>
       <ScrollToTop />
       <div className="flex flex-col min-h-screen">
         <Header />
