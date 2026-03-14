@@ -4,7 +4,6 @@ import path from "path"
 
 export default defineConfig({
   plugins: [react()],
-  // El nombre debe ser idéntico al que pusiste en GitHub
   base: '/Lautaro-Montenegro-dev-JR/', 
   resolve: {
     alias: {
