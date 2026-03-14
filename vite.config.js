@@ -7,7 +7,7 @@ export default defineConfig(({ command }) => {
     plugins: [react()],
     // Si usas 'npm run dev', el base será '/'. 
     // Si usas 'npm run build', el base será el de GitHub.
-    base: command === 'serve' ? '/' : '/Lautaro-Montenegro-dev-JR/', 
+    base: command === 'serve' ? '/' : '/lautaro-montenegro-dev-jr/', 
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
